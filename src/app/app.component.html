@@ -1,0 +1,6 @@
+<div *ngFor="let i of songs">
+       
+  <button (click)="playAudio(i.fileUrl)">Play</button>
+  <button (click)="stopAudio()">stop</button>
+</div>
+
